@@ -36,3 +36,11 @@ To install scrapy, simply run the following in the command prompt or in the term
     * [Item Code](/jessops/jessops/items.py) 
     * [Output Data](/jessops/product_details.json)
     * Run the project: `scrapy crawl jessops_spider -O product_details.json`
+
+* [Fake Plants](/fake_plants)
+    
+    * Creating a project: `scrapy startproject fake_plants`
+    * [Spider Code](/fake_plants/fake_plants/spiders/fake_plant.py) 
+    * [Item Code](/fake_plants/fake_plants/items.py) 
+    * [Output Data](/fake_plants/product_details.json)
+    * Run the project: `scrapy crawl fake_plant -O product_details.json`
