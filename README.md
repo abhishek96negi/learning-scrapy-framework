@@ -25,3 +25,14 @@ It is currently maintained by Scrapinghub Ltd.
 To install scrapy, simply run the following in the command prompt or in the terminal, or simply you can add the package from the project interpreter too.
 
 `pip install scrapy`
+
+
+## Project
+
+* [Jessops](/jessops)
+    
+    * Creating a project: `scrapy startproject jessops`
+    * [Spider Code](/jessops/spiders/jessops_spider.py) 
+    * [Item Code](/jessops/jessops/items.py) 
+    * [Output Data](/jessops/product_details.json)
+    * Run the project: `scrapy crawl jessops_spider -O product_details.json`
