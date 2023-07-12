@@ -40,7 +40,13 @@ To install scrapy, simply run the following in the command prompt or in the term
 * [Fake Plants](/fake_plants)
     
     * Creating a project: `scrapy startproject fake_plants`
-    * [Spider Code](/fake_plants/fake_plants/spiders/fake_plant.py) 
-    * [Item Code](/fake_plants/fake_plants/items.py) 
+    * [Spider Code](/fake_plants/fake_plants/spiders/fake_plant.py)
     * [Output Data](/fake_plants/product_details.json)
     * Run the project: `scrapy crawl fake_plant -O product_details.json`
+
+* [Whisky Shop](/whiskyshop)
+    
+    * Creating a project: `scrapy startproject whiskyshop`
+    * [Spider Code](/whiskyshop/whiskyshop/spiders/whisky_shop.py)
+    * [Output Data](/whiskyshop/details.json)
+    * Run the project: `scrapy crawl whisky_shop -O details.json`
