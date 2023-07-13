@@ -66,7 +66,7 @@ To install scrapy, simply run the following in the command prompt or in the term
     * [Spider Code](/worldomerter_coronavirus/worldomerter_coronavirus/spiders/worldomerter_coronavirus_spider.py)
     * [Output Data](/worldomerter_coronavirus/details.json)
     * Run the project: `scrapy crawl worldometer_coronavirus_spider -O details.json`
-* [Worldometer Corona Virus](/worldomerter_coronavirus)
+* [Amazon](/amazon)
     
     * Creating a project: `scrapy startproject amazon`
     * [Spider Code](/amazon/amazon/spiders/amazon_spider.py)
