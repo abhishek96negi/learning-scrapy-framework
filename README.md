@@ -60,3 +60,9 @@ To install scrapy, simply run the following in the command prompt or in the term
     * [XML Output Code](/quotes/items.xml)
     * [DB Output Code](/quotes/myquote.db)
     * Run the project: `scrapy crawl quotes -O items.csv`
+* [Worldometer Corona Virus](/worldomerter_coronavirus)
+    
+    * Creating a project: `scrapy startproject worldomerter_coronavirus`
+    * [Spider Code](/worldomerter_coronavirus/worldomerter_coronavirus/spiders/worldomerter_coronavirus_spider.py)
+    * [Output Data](/worldomerter_coronavirus/details.json)
+    * Run the project: `scrapy crawl worldometer_coronavirus_spider -O details.json`
